@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>(1)Book Your Appointment with Balambika Motors</title>
+  <link rel="stylesheet" href="CSS/book.css">
+
+  <script>
+    function checkName() {
+      inputtxt = document.getElementById("name").value;
+      var letters = /^[A-Za-z|" "]+$/;
+      if (inputtxt.match(letters)) {
+        return true;
+      }
+      else {
+        alert("Full Name Must Contain All Letters Only...!!");
+        window.location='book.html';
+      }
+    }
+  </script>
+
+</head>
+
+<body>
+  <form action="book1.php" method="post">
+    <div class="wrapper">
+      <div class="title">
+        - Book Appointment -
+      </div>
+      <div class="form">
+        <div class="inputfield">
+          <label>Name :</label>
+          <input type="text" name="name" id="name" onkeyup="checkName()" placeholder=" First&emsp;Middle&emsp;Last" required>
+        </div>
+
+        <div class="inputfield">
+          <label>Mail ID :</label>
+          <input type="email" name="email" id="email" placeholder=" example@gmail.com" required>
+        </div>
+
+        <div class="inputfield">
+          <label>Mobile/Phone :</label>
+          <input type="tel" name="mob" id="mob" pattern="[789][0-9]{9}" placeholder="  Only 10 Digits are Allowed"
+            required>
+        </div>
+
+        <div class="inputfield">
+          <label>Address :</label>
+          <input type="text" name="addr" id="addr" placeholder="  Lane No. /Street / At. Post. / Tal. / Dist."
+            required="required">
+        </div>
+
+        <div class="inputfield">
+          <label>Enter Vehicle No.</label>
+          <input type="text" name="vehNo" id="vehNo" placeholder="   eg. MH-16-CC-1925" required="required">
+        </div>
+        <div class="inputfield">
+          <label style="white-space:nowrap">Select Vehicle <br>Type :</label>
+          <div class="custom-select">
+            <select name="vehType" required="required">
+              <option value="null">Select Option</option>
+              <option value="Car">Car</option>
+              <option value="Bike">Bike</option>
+            </select>
+          </div>
+        </div>
+
+
+        <div class="inputfield">
+          <input type="submit" value="Next" class="btn">
+        </div>
+      </div>
+    </div>
+  </form>
+</body>
+
+</html>
