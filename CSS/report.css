@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
+
+*{
+  margin: 10px;
+  padding: 1px;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body
+{
+  color: white;
+    text-align: center;
+    padding-bottom: 159px;
+    background: linear-gradient(110deg, rgba(2,0,36,1) 0%, rgba(0,16,19,1) 47%, rgba(192,192,192,1) 100%);
+}
+
+.A
+{
+  margin-right: -3px;
+}
+.B
+{
+  margin-right: -2px;
+}
+.C
+{
+  margin-right: -49px;
+}
+.D
+{
+  margin-right: -124px;
+}
+
+.btn
+{
+  border: 1px solid white;
+  background: linear-gradient(110deg, rgba(2,0,36,1) 0%, rgba(0,16,19,1) 47%, rgb(0, 0, 0) 100%);
+  font-size: 20px;
+  width: 117px;
+  height: 30px;
+  color: white;
+  font-weight: bold;
+}
+
+.btn:hover
+{
+  cursor: pointer;
+  color: black;
+  background: white;
+  border: 1px solid black;
+}
+
+.abhi{
+  margin-left: -491px;
+}
+
+.aavej
+{
+  margin-top: -178px;
+    display: block;
+    margin-right: -452px;
+}
+
+
+.AS
+{
+  margin-top: 17px;
+    display: inline-block;
+}
+
+.result
+{
+  margin-top: 50px;
+}
+
+.btn1
+{
+  border: 1px solid white;
+  background: linear-gradient(110deg, rgba(2,0,36,1) 0%, rgba(0,16,19,1) 47%, rgb(0, 0, 0) 100%);
+  font-size: 20px;
+  width: 117px;
+  height: 30px;
+  color: white;
+  font-weight: bold;
+  margin-top: 44px;
+    margin-right: -456px;
+}
+
+.btn1:hover
+{
+  cursor: pointer;
+  color: black;
+  background: white;
+  border: 1px solid black;
+}
