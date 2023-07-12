@@ -78,7 +78,7 @@ Contributions to the **ServicePro** project are welcome! If you would like to co
 
 If you have any questions, suggestions, or feedback, feel free to reach out:
 
-- Project Head: [Mr. Abhishek Sachin Dhondalkar] 🙋‍♂️
+- Project By: [Mr. Abhishek Sachin Dhondalkar (Fergusson College, Pune.)] 🙋‍♂️
 - Mobile: [+91 9595601925] 📱
 - Email: [jainabhishek1925@gmail.com] 📧
 
